@@ -12,7 +12,7 @@ public class WarriorTest {
   Enemy demoEnemy = new Enemy("テストスライム", 200, 10);
   demoWarrior.attackWithWeponSkill(demoEnemy);
   int damage = defaultEnemyHP - demoEnemy.getHitPoint();
-  assertEquals(defaultWarriorAttack * 1.5, damage); //エネミーのHPの初期状態との差分が戦士が与えたダメージ
+  assertEquals(defaultWarriorAttack * 1.5, damage); 
   }
   }
   }
